@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.card.hide {
+  @apply bg-[#0a3d62];
+}
+.card.hide img {
+  @apply hidden;
+}
+.card.show {
+  @apply bg-white;
+}
+.card.show img {
+  @apply block;
+}
+.card.show.right {
+  @apply bg-green-600;
+}
+.card.show.false {
+  @apply bg-red-600;
+}

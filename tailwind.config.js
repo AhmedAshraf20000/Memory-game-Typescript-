@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Josefin Sans', 'sans-serif'],
+      alata: ['Alata'],
+    },
+    extend: {
+
+    },
   },
   plugins: [],
 }
